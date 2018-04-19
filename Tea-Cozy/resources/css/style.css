@@ -1,0 +1,133 @@
+/* Universal Styles */
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0;
+}
+a {
+  color: white;
+  text-decoration: underline;
+}
+h2, h4, h5 {
+
+  color: seashell;
+  text-align: center;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+
+}
+
+/*logo */
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.logo img {
+  height: 50px;
+}
+
+.mission {
+  height: 700px;
+  width: 1200px;
+  margin: auto;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.mission .box {
+  background-color: black;
+  width: 1200px;
+  height: 140px;
+  text-align: center;
+}
+
+.tea {
+  width: 1000px;
+  height: auto;
+
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+img{
+  height: 200px;
+  width: 300px;
+}
+
+.tea .box h4 {
+  margin: auto;
+  padding: 10px 0px;
+}
+.locations {
+  height: 500px;
+  width: 1200px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  margin: auto;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.locations .box1{
+  width: 300px;
+
+  background-color: black;
+  text-align: center;
+  margin-right: 20px;
+}
+.locations .box2{
+    width: 300px;
+
+    background-color: black;
+    text-align: center;
+    margin: 0px 20px;
+}
+.locations .box3{
+      width: 300px;
+
+      background-color: black;
+      text-align: center;
+      margin-left: 20px;
+      opacity: 1;
+}
+.footer {
+  height: 200px;
+
+  display: block;
+}
+.footer h5 {
+  text-align: center;
+}
+
+.copyright h5{
+  text-align: left;
+  margin-left: 20px;
+}
